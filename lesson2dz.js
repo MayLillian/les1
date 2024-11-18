@@ -24,3 +24,8 @@ let NullVariable = null;
 console.log(NullVariable);
 
 console.log(typeof myVariable, "||", typeof implicitUndefined, "||", typeof NullVariable);
+
+let birthYear = 1992;
+let currentYear = 2024;
+let currentAge = currentYear - birthYear;
+console.log(`Привет, мне ${currentAge} лет.`)
