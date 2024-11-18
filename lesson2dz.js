@@ -19,6 +19,8 @@ console.log(`${nameType}:${name}, ${ageType}:${age}, ${isStudentType}:${isStuden
 let myVariable;
 console.log(myVariable);
 let implicitUndefined;
+console.log(implicitUndefined);
 let NullVariable = null;
 console.log(NullVariable);
 
+console.log(typeof myVariable, "||", typeof implicitUndefined, "||", typeof NullVariable);
