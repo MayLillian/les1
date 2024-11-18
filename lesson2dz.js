@@ -29,3 +29,8 @@ let birthYear = 1992;
 let currentYear = 2024;
 let currentAge = currentYear - birthYear;
 console.log(`Привет, мне ${currentAge} лет.`)
+
+let birthYear = 1992;
+let currentYear = new Date().getFullYear();
+let currentAge = currentYear - birthYear;
+console.log(`Привет, мне ${currentAge} лет.`)
