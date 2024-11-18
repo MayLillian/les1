@@ -28,4 +28,4 @@ console.log(typeof myVariable, "||", typeof implicitUndefined, "||", typeof Null
 let birthYear = 1992;
 let currentYear = new Date().getFullYear();
 let currentAge = currentYear - birthYear;
-console.log(`Привет, мне ${currentAge} лет.`)
+console.log(`Привет, мне ${currentAge} года.`)
